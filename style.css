@@ -1,0 +1,51 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.introduce {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#stack {
+  text-align: center;
+  text-decoration: none;
+  transition: 1s;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  background-color: gold;
+}
+
+.card_img {
+  width: 400px;
+  height: 400px;
+}
+
+.card_list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 20px;
+  max-width: 1300px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card_title {
+  margin-bottom: 5px;
+}
+
+.card_button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
